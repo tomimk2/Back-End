@@ -4,7 +4,7 @@ class Contenedor {
     constructor(fileName) {
         this.fileName = fileName;
     }
-    static productos = [];
+    static objetos = [];
     async save(obj) {
         try {
             obj.id = Contenedor.objetos.length + 1;
