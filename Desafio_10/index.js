@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use(cookieParser());
 app.use(session({
     store: mongoStore.create({
-        mongoUrl: 'mongodb+srv://macaromero:msm8BYiXaNCnTmJJ@cluster0.qa52w3x.mongodb.net/ecommerce?retryWrites=true&w=majority',
+        mongoUrl: 'mongodb+srv://tomimk2:alvarito1@cluster0.p70mk.mongodb.net/?retryWrites=true&w=majority',
         mongoOptions: advancedOptions,
         ttl: 60,
         collectionName: 'sessions'
