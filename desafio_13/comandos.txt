@@ -1,0 +1,37 @@
+//  PM2  //
+
+// Inicializando procesos como fork
+pm2 start index.js --name="Index" --watch -- 8080
+pm2 start index.js --name="Randoms2" --watch -- 8082
+pm2 start index.js --name="Randoms3" --watch -- 8083
+pm2 start index.js --name="Randoms4" --watch -- 8084
+pm2 start index.js --name="Randoms5" --watch -- 8085
+
+// Inicializando procesos como cluster
+pm2 start index.js --name="Randoms" --watch -i max -- 8081
+
+// Listando los procesos
+pm2 list
+
+// Finalización de procesos
+pm2 stop 0
+pm2 stop 2
+
+
+
+//  FOREVER  //
+
+// Inicializando procesos
+forever start index.js --watch -- 8080
+forever start index.js --watch -- 8081
+forever start index.js --watch -- 8082
+forever start index.js --watch -- 8083
+forever start index.js --watch -- 8084
+forever start index.js --watch -- 8085
+
+// Listando los procesos
+forever list
+
+// Finalización de procesos
+forever stop 10408
+forever stopall
