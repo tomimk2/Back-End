@@ -1,0 +1,80 @@
+.container-userPurchasesView {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 9%;
+}
+
+.row-userPurchasesView {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+
+.col-userPurchasesView {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.recuadro-userPurchasesView {
+    background-color: rgb(235, 194, 198);
+    width: 7%;
+    height: 0.7vh;
+    margin-bottom: 5%;
+    margin-top: 0.4%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.title-userPurchasesView {
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+#tContainer-userPurchasesView {
+    display: flex;
+    justify-content: center;
+}
+
+#table-userPurchasesView {
+    width: 60%;
+}
+
+#tHead-userPurchasesView {
+    background-color: rgba(215, 132, 140, 0.76);
+}
+
+#tHead-userPurchasesView th {
+    color: white;
+}
+
+#tBody-userPurchasesView td, #tBody-userPurchasesView th, #tFooter-userPurchasesView td {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#tHead-userPurchasesView th {
+    font-weight: 700;
+}
+
+.tCell-userPurchasesView {
+    font-size: 1em;
+}
+
+#btnSeguirComprando-userPurchasesView {
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgb(235, 194, 198);
+    width: 100%;
+    border-radius: 0;
+}

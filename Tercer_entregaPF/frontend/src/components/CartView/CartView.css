@@ -1,0 +1,85 @@
+.container-cartView {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 9%;
+}
+
+.row-cartView {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+#btnVolver-cartView {
+    color: rgba(215, 132, 140, 0.76);
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+#tContainer-cart {
+    display: flex;
+    justify-content: center;
+}
+
+#table-cart {
+    width: 60%;
+}
+
+#tHead-cart {
+    background-color: rgba(215, 132, 140, 0.76);
+}
+
+#tHead-cart th {
+    color: white;
+}
+
+#tBody-cart td, #tBody-cart th, #tFooter-cart td {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#tFooter-cart {
+    background-color: rgb(247, 233, 233);
+}
+
+#tHead-cart th, #tFooter-cart .tCell-cart {
+    font-weight: 700;
+}
+
+#tFooter-cart .tCell-cart {
+    font-size: 1em;
+}
+
+.h3-cartView {
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 6%;
+    text-transform: uppercase;
+}
+
+#btnSeguirComprando-cartView {
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgb(235, 194, 198);
+    width: 50%;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#btnComprar-cartView {
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgb(235, 194, 198);
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.mt {
+    margin-top: 2%;
+}

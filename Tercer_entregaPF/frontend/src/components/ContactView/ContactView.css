@@ -1,0 +1,59 @@
+.container-contactView {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 10%;
+}
+
+.row-contactView {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.col-contactView {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.spaceAround-contactView {
+    justify-content: space-around;
+}
+
+.title-contactView {
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
+.recuadro-contactView {
+    background-color: rgb(235, 194, 198);
+    width: 5%;
+    height: 0.7vh;
+    margin-bottom: 5%;
+    margin-top: 0.4%;
+}
+
+#btnSend-contactView {
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgb(235, 194, 198);
+    width: 100%;
+    border-radius: 0;
+}
+
+.socialMedia-contactView {
+    text-align: start;
+}
+
+#btnIg-contactView, #btnWapp-contactView {
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.54);
+}

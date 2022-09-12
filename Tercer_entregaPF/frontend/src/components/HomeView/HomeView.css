@@ -1,0 +1,86 @@
+.container-homeView {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2% 10%;
+}
+
+.row-homeView {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 6%;
+}
+
+.col-homeView {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 77vh;
+}
+
+.banner-homeView {
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-homeView {
+    position: relative;
+    left: -12%;
+}
+
+.imgZapas {
+    top: -28%;
+    left: -25%;
+}
+
+.name-homeView {
+    font-size: 2.9em;
+    text-transform: uppercase;
+}
+
+.recuadro-homeView {
+    background-color: rgb(235, 194, 198);
+    width: 10%;
+    height: 1vh;
+    margin-bottom: 3%;
+}
+
+.w-100 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description-homeView {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.34);
+}
+
+.overflow-homeView {
+    overflow: hidden;
+    white-space: break-spaces;
+}
+
+.align-end {
+    text-align: end;
+}
+
+.align-start {
+    text-align: start;
+}
+
+#btnSandalias-homeView {
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgb(235, 194, 198);
+    border-radius: 0;
+    margin-top: 4%;
+    width: 40%;
+}
+
+.justifyBottom-homeView {
+    justify-content: end;
+}

@@ -1,0 +1,8 @@
+.container-itemListContainer {
+    display: flex;
+    flex-wrap: inherit;
+    margin: 3% 10% 5% 10%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}

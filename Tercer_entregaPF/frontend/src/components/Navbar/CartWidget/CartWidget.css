@@ -1,0 +1,131 @@
+.MuiMenuUnstyled-root {
+    left: -5.4% !important;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+    z-index: 1100;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 70vh;
+    background-color: white;
+}
+
+#simple-menu {
+    padding: 0;
+}
+
+.container-cartWidget {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.row-cartWidget {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col-cartWidget {
+    display: flex;
+    flex-direction: column;
+}
+
+.MuiBadge-anchorOriginTopRightRectangular {
+    background-color: rgba(255, 176, 184, 0.61);
+}
+
+#cartIcon-cartWidget {
+    background-color: transparent;
+}
+
+.bg-cartWidget {
+    background-color: white;
+    width: 20em;
+    padding: 5% 0;
+}
+
+.jcAround-cartWidget {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.jcCenter-cartWidget {
+    justify-content: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pl-cartWidget {
+    padding-left: 4%;
+}
+
+.colImg-cartWidget {
+    width: fit-content;
+    max-width: 4em;
+}
+
+.img-cartWidget {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.nombreProd-cartWidget {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5%;
+}
+
+.datosProd-cartWidget {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.35);
+    margin-bottom: 2.5%;
+}
+
+.colBtn-cartWidget {
+    display: flex;
+    align-items: center;
+}
+
+.pCounter-cartWidget {
+    margin: 0 14%;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.precioProd-cartWidget {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.divider-cartWidget {
+    width: 100%;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.bottom-cartWidget {
+    margin-top: 8%;
+}
+
+#btnBuy-cartWidget {
+    margin-top: 3%;
+    width: 90%;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    border: 1px solid rgb(235, 194, 198);
+    box-shadow: none;
+}
+
+#btnEmpty-cartWidget {
+    width: 90%;
+    border-radius: 0;
+    box-shadow: none;
+}

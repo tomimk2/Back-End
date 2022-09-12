@@ -1,0 +1,77 @@
+.container-userProfileView {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 10%;
+}
+
+.row-userProfileView {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.col-userProfileView {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.img-userProfileView {
+    width: 9em;
+}
+
+.alignEnd {
+    align-items: end;
+}
+
+.title-userProfileView {
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.recuadro-userProfileView {
+    background-color: rgb(235, 194, 198);
+    width: 3%;
+    height: 0.7vh;
+    margin-bottom: 5%;
+    margin-top: 0.4%;
+}
+
+#btnSend-userProfileView {
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgb(235, 194, 198);
+    width: 100%;
+    border-radius: 0;
+}
+
+#btnEdit-userProfileView {
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgb(235, 194, 198);
+    border-radius: 0;
+    width: 10%;
+}
+
+.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-wb57ya-MuiFormControl-root-MuiTextField-root>.css-ghsjzk-MuiInputBase-root-MuiInput-root::after{
+    border-bottom: 1px solid rgb(235, 194, 198);
+}
+
+.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-wb57ya-MuiFormControl-root-MuiTextField-root>.css-ghsjzk-MuiInputBase-root-MuiInput-root:hover{
+    border-bottom: 2px solid rgb(196, 161, 165);
+}
+.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-wb57ya-MuiFormControl-root-MuiTextField-root>.css-ghsjzk-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled)::before{
+    border-bottom: none;
+}
+
+#formInput-userProfileView-label.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused, #formItem-userProfileView>div>label.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: rgb(209, 173, 177);
+}

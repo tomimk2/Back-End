@@ -1,0 +1,15 @@
+.container-itemDetailContainer {
+    display: flex;
+    flex-wrap: inherit;
+    margin: 3% 10% 5% 10%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.row-itemDetailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}

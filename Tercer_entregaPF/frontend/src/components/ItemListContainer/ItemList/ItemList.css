@@ -1,0 +1,10 @@
+.row-itemList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.col-itemList {
+    margin-bottom: 3%;
+}

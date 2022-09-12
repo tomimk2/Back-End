@@ -1,0 +1,85 @@
+.box-navbar {
+    flex-grow: 1;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 4%;
+}
+
+.navbar {
+    background-color: rgb(247, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo-navbar {
+    width: 45%;
+    cursor: pointer;
+}
+
+.logoMecha-navbar {
+    display: flex;
+    width: 10%;
+}
+
+.links-navbar {
+    display: flex;
+    color: white;
+    width: 34.5%;
+    margin-left: -5%;
+}
+
+#ul-navbar {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+.logosCart-navbar {
+    display: flex;
+}
+
+#menuProductos-navbar, #linkProductos-navbar, #linkHome-navbar, #linkCat-navbar, #linkAll-navbar, #linkUs-navbar, #linkContact-navbar {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+#linkProductos-navbar:hover, #linkHome-navbar:hover, #linkCat-navbar:hover, #linkAll-navbar:hover, #linkUs-navbar:hover, #linkContact-navbar:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+}
+
+#btnProductos-navbar:focus, #btnProductos-navbar:focus-visible, #btnProductos-navbar:focus-within, #btnHome-navbar:focus, #btnHome-navbar:focus-visible, #btnHome-navbar:focus-within, #btnCat-navbar:focus, #btnCat-navbar:focus-visible, #btnCat-navbar:focus-within, #btnAll-navbar:focus, #btnAll-navbar:focus-visible, #btnAll-navbar:focus-within, #btnUs-navbar:focus, #btnUs-navbar:focus-visible, #btnUs-navbar:focus-within, #btnContact-navbar:focus, #btnContact-navbar:focus-visible, #btnContact-navbar:focus-within, #btnProductos-navbar>span {
+    color: transparent;
+    background-color: transparent;
+}
+
+#linkProductos-navbar:active, #linkHome-navbar:active, #linkCat-navbar:active, #linkAll-navbar:active, #linkUs-navbar:active, #linkContact-navbar:active {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+    background-color: transparent;
+}
+
+#btnProductos-navbar:not(:active), #btnProductos-navbar:not(:focus), #btnHome-navbar:not(:active), #btnHome-navbar:not(:focus), #btnCat-navbar:not(:active), #btnCat-navbar:not(:focus), #btnAll-navbar:not(:active), #btnAll-navbar:not(:focus), #btnUs-navbar:not(:active), #btnUs-navbar:not(:focus), #btnContact-navbar:not(:active), #btnContact-navbar:not(:focus) {
+    background-color: transparent;
+    box-shadow: none !important;
+}
+
+.flechaProductos-navbar {
+    vertical-align: top;
+}
+
+.liProductos-navbar {
+    justify-content: center;
+}
+
+.logosUserCart-navbar {
+    display: flex;
+}

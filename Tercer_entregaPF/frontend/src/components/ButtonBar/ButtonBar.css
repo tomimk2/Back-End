@@ -1,0 +1,10 @@
+.row-buttonBar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#btn-buttonBar {
+    color: rgba(215, 132, 140, 0.76) !important;
+}

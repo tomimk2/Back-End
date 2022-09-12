@@ -1,0 +1,40 @@
+#btnLogIn-userWidget {
+    margin: 4% 5%;
+    border: 1px solid rgb(235, 194, 198);
+    color: rgba(0, 0, 0, 0.54);
+    border-radius: 0;
+    width: 90%;
+}
+
+#btnNewAccount-userWidget {
+    margin: 2% 5%;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.54);
+    border-radius: 0;
+    width: 90%;
+}
+
+#dividerAccount-userWidget {
+    margin-bottom: 2%;
+}
+
+#formItem-userWidget>span {
+    color: transparent;
+}
+
+#formItem-userWidget:hover, #formItem-userWidget:active, #formItem-userWidget:focus, #formItem-userWidget:not(:focus) {
+    color: transparent;
+    background-color: transparent;
+}
+
+#formInput-userWidget>.css-1480iag-MuiInputBase-root-MuiInput-root::after, #formInput-userWidget>.css-1480iag-MuiInputBase-root-MuiInput-root::before, #formInput-userWidget>.css-1480iag-MuiInputBase-root-MuiInput-root:focus, #formInput-userWidget>.css-1480iag-MuiInputBase-root-MuiInput-root:active, #formInput-userWidget>.css-1480iag-MuiInputBase-root-MuiInput-root:hover, #formInput-userWidget:focus, #formInput-userWidget:active, #formItem-userWidget>div>.css-1480iag-MuiInputBase-root-MuiInput-root::after, #formItem-userWidget>div>.css-1480iag-MuiInputBase-root-MuiInput-root::before, #formItem-userWidget>div>.css-1480iag-MuiInputBase-root-MuiInput-root:focus, #formItem-userWidget>div>.css-1480iag-MuiInputBase-root-MuiInput-root:active, #formItem-userWidget>div>.css-1480iag-MuiInputBase-root-MuiInput-root:hover {
+    border-bottom: 1px solid rgb(235, 194, 198);
+}
+
+#formLabel-userWidget.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused, #formItem-userWidget>div>label.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: rgb(209, 173, 177);
+}
+
+#avatar-userWidget {
+    height: 18px;
+}

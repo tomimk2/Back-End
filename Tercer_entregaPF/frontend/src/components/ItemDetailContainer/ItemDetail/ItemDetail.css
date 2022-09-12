@@ -1,0 +1,171 @@
+.container-itemDetail {
+    display: flex;
+    flex-wrap: inherit;
+    margin: 3% 10% 5% 10%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row-itemDetail {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 2%;
+}
+
+.col-itemDetail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-itemDetail {
+    text-transform: uppercase;
+    text-align: start;
+    color: rgba(215, 132, 140, 0.76);
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.price-itemDetail {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.35);
+    margin-top: 0;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.imgDiv-itemDetail {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.imgAnimation-itemDetail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.img-itemDetail {
+    width: 100%;
+}
+
+.containerBtn-itemDetail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    z-index: 1;
+}
+
+.rowBtn-itemDetail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin: 0 4%;
+}
+
+.description-itemDetail {
+    color: rgba(0, 0, 0, 0.35);
+    text-align: start;
+    font-size: 0.9em;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.subtitle-itemDetail {
+    text-transform: uppercase;
+    text-align: start;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 0;
+    margin-top: 6%;
+    font-size: 1em;
+}
+
+.MuiSelect.Mui-active, .MuiSelect.Mui-focused {
+    border-radius: 5px !important;
+    border-color: violet !important;
+    box-shadow: 0 0 0 0.2rem rgba(251, 255, 0, 0.25) !important;
+}
+
+.MuiSelect-select {
+    color: rgba(0, 0, 0, 0.35) !important;
+}
+
+#btnBuy-itemDetail {
+    background-color: rgb(235, 194, 198);
+    color: white;
+    width: 100%;
+    border-radius: 0;
+    margin: 0 2%;
+}
+
+.btn-itemDetail {
+    margin-top: 10%;
+    margin-left: 2%;
+    text-align: start;
+    border-radius: 0;
+}
+
+#btnArrow-itemDetail {
+    scale: 2;
+    color: rgb(235, 194, 198);
+    border-radius: 100%;
+}
+
+#btnMoveImg-itemDetail {
+    border-radius: 100%;
+    min-width: 37px;
+}
+
+#btnMoveImg-itemDetail:hover {
+    scale: 1.2;
+}
+
+#btnMoveImg-itemDetail:active, #btnMoveImg-itemDetail:focus-visible, #btnMoveImg-itemDetail:focus-within, #btnMoveImg-itemDetail:visited {
+    background-color: rgba(255, 255, 255, 0.103);
+    color: rgba(255, 255, 255, 0.103);
+}
+
+#btnMoveImg-itemDetail:not(:active), #btnMoveImg-itemDetail:not(:focus) {
+    color: transparent;
+    background-color: transparent;
+}
+
+#snackbar-itemDetail {
+    position: unset;
+    justify-content: center;
+}
+
+#alert-itemDetail {
+    font-size: 1.2em;
+    width: 55%;
+}
+
+#o-hidden {
+    overflow: hidden;
+}
+
+.m-0 {
+    margin: 0;
+}
