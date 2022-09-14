@@ -2,7 +2,7 @@ const classC = require("../lib/carts_class");
 const classCarts = new classC;
 const uuid = require("uuid");
 const {transporter} = require('../config/nodemailer');
-const client = require('twilio')(process.env.TWILIO_SID, process.env.TWILIO_AUTHTOKEN);
+const client = require('twilio');
 const {log4js} = require('../middlewares/logger');
 const loggerError = log4js.getLogger('error');
 const loggerWarning = log4js.getLogger('warn');
@@ -18,8 +18,8 @@ const createCart = async (req, res) => {
     let smsId;
 
     const mailOptions = {
-        from: 'macarenasromero@gmail.com',
-        to: process.env.NODEMAILER_USER,
+        from: 'jotita.ta@gmail.com',
+        to: 'jotita.ta@gmail.com',
         subject: subject,
         text: JSON.stringify(productos) 
     };

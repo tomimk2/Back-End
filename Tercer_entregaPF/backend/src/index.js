@@ -21,9 +21,9 @@ const notFoundRoute = require('./routes/main');
 const {mongoConnection} = require('./config/mongoDB');
 
 app.use(session({
-    secret: process.env.SESSION_SECRET,
-    resave: process.env.SESSION_RESAVE,
-    saveUninitialized: process.env.SESSION_SAVEUNINITIALIZED,
+    secret: "secret",
+    resave: true,
+    saveUninitialized: true,
     cookie: {
         maxAge:60000
     }
