@@ -1,0 +1,6 @@
+[2022-08-23T16:12:32.849] [WARN] warn - Ruta: /aca - Método: GET
+[2022-08-23T16:14:42.840] [WARN] warn - Ruta: /aca - Método: GET
+[2022-08-23T16:50:49.261] [WARN] warn - Ruta: /info-console - Método: GET
+[2022-08-23T16:51:12.829] [WARN] warn - Ruta: /info/console - Método: GET
+[2022-08-23T16:53:22.386] [WARN] warn - Ruta: /info-console - Método: GET
+[2022-09-13T16:53:59.538] [WARN] warn - Ruta: /favicon.ico - Método: GET
