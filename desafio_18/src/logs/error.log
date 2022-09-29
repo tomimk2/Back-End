@@ -1,0 +1,6 @@
+[2022-09-27T16:02:23.021] [ERROR] error - Ocurrió un error al intentar modificar el producto en la base de datos: TypeError: Cannot read properties of undefined (reading 'length')
+[2022-09-27T16:03:23.801] [ERROR] error - Ocurrió un error al intentar modificar el producto en la base de datos: TypeError: Cannot read properties of undefined (reading 'length')
+[2022-09-27T16:04:03.316] [ERROR] error - Ocurrió un error al intentar modificar el producto en la base de datos: TypeError: Cannot read properties of undefined (reading 'length')
+[2022-09-27T16:06:51.623] [ERROR] error - Ocurrió un error al intentar modificar el producto en la base de datos: TypeError: Cannot read properties of undefined (reading 'length')
+[2022-09-27T16:08:17.828] [ERROR] error - Ocurrió un error al intentar modificar el producto en la base de datos: TypeError: Cannot read properties of undefined (reading 'length')
+[2022-09-27T16:14:57.617] [ERROR] error - Ocurrió un error al intentar eliminar el producto de la base de datos: TypeError: Cannot read properties of undefined (reading 'length')
