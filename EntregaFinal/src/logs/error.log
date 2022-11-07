@@ -1,0 +1,2 @@
+[2022-09-09T10:10:26.666] [ERROR] error - Ocurrió un error al enviar el mensaje por SMS: Error: Authenticate
+[2022-09-09T10:10:26.672] [ERROR] error - Ocurrió un error al enviar el mensaje por WhatsApp: Error: Authenticate

@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "log4js": "^6.7.0",
+    "mongoose": "^6.7.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "twilio": "^3.83.1",
+    "uuid": "^9.0.0"
+  },
+  "name": "entregafinal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
